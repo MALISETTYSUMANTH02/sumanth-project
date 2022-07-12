@@ -26,7 +26,7 @@ String code = "";
 #include <addons/RTDBHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "iotree minds LLP"
+#define WIFI_SSID "smart-library"
 #define WIFI_PASSWORD "87554321"
 
 // For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
@@ -77,7 +77,7 @@ void setup()
   config.api_key = API_KEY;
 
   /* Assign the user sign in credentials */
-  auth.user.email = "shreevallabhas@gmail.com";
+  auth.user.email = "balajimelagiri1@gmail.com";
   auth.user.password = "1111111111";
 
   /* Assign the RTDB URL (required) */
